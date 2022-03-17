@@ -1,0 +1,146 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[margin=2cm]{geometry}
+\usepackage{float}
+\usepackage{graphicx}
+\graphicspath{ {img/} }
+\usepackage{color}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\title{Documento di candidatura}
+\author{Capitolato C4 - Guida Michelin @ social - Zero12}
+\date{7 Aprile 2022}
+\renewcommand*\contentsname{Indice}
+\begin{document}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=8cm]{FoxyByte_logo_transparency.png}
+\end{figure}
+
+\begin{center}
+	\textbf{} foxybyte.swe@gmail.com
+\end{center}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c|c c c}
+		\textbf{Componenti} & Biasotto     & Luca  & 1162290 \\
+		                    & Bosinceanu & Ecaterina & 1169669 \\
+		                    & Ferrari   & Gianluca      & 1174586 \\
+		                    & Fincato   & Alessandro   & 1201264 \\
+		                    & Hida   & Denisa   & 1204284 \\
+		                    & Lauriola   & Pietro   & 1224820 \\
+		                    & Uderzo   & Marco   & 1201290 \\
+	\end{tabular}
+\end{table}
+
+
+\begin{titlepage}
+\maketitle
+\end{titlepage}
+
+\tableofcontents
+
+\section{Resoconto dell'incontro col proponente}
+	\subsection{Informazioni generali}
+		\subsubsection{Luogo e data}
+			L'incontro si è svolto il giorno 15/03/2022 dalle 16.30 alle 17.30 in sede virtuale (Google Meet).
+		\subsubsection{Partecipanti}
+			\begin{itemize}
+			    \item Interni
+			    	\begin{itemize}
+					    \item Biasotto Luca
+		                \item Bosinceanu Ecaterina
+		                \item Ferrari Gianluca
+		                \item Fincato Alessandro
+		                \item Hida Denisa
+		                \item Lauriola Pietro
+		                \item Uderzo Marco
+					\end{itemize}
+			    \item Esterni
+			    	\begin{itemize}
+					    \item Michele Massaro
+					\end{itemize}
+			\end{itemize}
+	\subsection{Descrizione}
+		L'obiettivo del progetto è la creazione di una piattaforma che permetta di raccogliere recensioni da post e video di Instagram e TikTok relativi ad un luogo indicato. Deve permettere di creare una mappa dei luoghi di interesse ed indicare gli utenti da seguire per creare una guida. 
+	\subsection{Linguaggi e strumenti}
+		Sarà necessario costruire un database servendosi di un crawler per il recupero dei dati. Nello specifico, serviranno strumenti di machine learning per estrarre i dati utili da video e post. Gli strumenti proposti sono:
+		\begin{itemize}
+			\item AWS Rekognition: è un servizio Amazon di visione artificiale, capace di riconoscere ed estrarre informazioni da video e immagini;
+			\item AWS Comprehend: è un servizio Amazon per l'elaborazione del linguaggio naturale e rilevare informazioni all'interno di un testo.
+		\end{itemize}
+
+		I linguaggi consigliati per lo sviluppo in back-end sono:
+		\begin{itemize}
+			\item Node.js;
+			\item Typescript.
+		\end{itemize}
+		Per quanto riguarda il front-end si potrà scegliere tra Angular e React, dunque è necessaria conoscere:
+		\begin{itemize}
+			\item JavaScript;
+			\item HTML;
+			\item CSS.
+		\end{itemize}
+
+	\subsection{Criticità}
+	I fattori critici che sono sovvenuti al gruppo sono i seguenti:
+		\begin{itemize}
+			\item Non esistono applicazioni simili da cui trarre spunto;
+			\item Poca famigliarità con i crawler e con i servizi AWS;
+			\item Nonostante le informazioni vengano estratte da post, foto e vide pubblici c'è il rischio di blocchi e limitazioni da parte dei social; inoltre, per lo stesso motivo, potrebbe non essere possibile implementare tutte le funzionalità richieste.
+			\item Dispendioso in termini di tempo in quanto necessita di molto studio degli strumenti ed i linguaggi che il gruppo non conosce;
+		\end{itemize}
+
+	\subsection{Considerazioni}
+	\begin{itemize}
+		\item richiede un'analisi molto precisa ed approfondita su come costruire l'architettura e ragionare sul modo più efficace per visualizzare i dati lato utente;
+		\item scegliere se è più conveniente utilizzare un'architettura server o serverless;
+	\end{itemize}
+
+\section{Motivazioni della scelta}
+Di seguito le motivazioni che ci hanno portato a scegliere questo capitolati:
+	\begin{itemize}
+		\item rappresenta un'ottima opportunità per apprendere linguaggi e strumenti nuovi;
+		\item utilizza strumenti attuali di machine learning e intelligenza artificiale;
+		\item è un'applicazione innovativa e unica nel suo genere, non ne esistono di simili e ha grandi potenzialità di utilizzo;
+		\item l'azienda proponente è disponibile e offre supporto nello sviluppo e minicorsi per lo sviluppo back-end;
+	\end{itemize}
+\section{Impegni}
+	\subsection{Preventivo costi e scadenza}
+
+	\subsection{Ore produttive}
+		\begin{center}
+			\begin{tabular}{||c | c | c | c | c||} 
+			 \hline
+			 Ruolo & Costo orario  & Ore per ruolo & Ore per membro & Costo totale \\ [0.5ex] 
+			 \hline\hline
+			 Responsabile & 30 & 10 & 10 & 10 \\ 
+			 \hline
+			 Amministratore & 30 & 10 & 10 & 10 \\
+			 \hline
+			 Analista & 30 & 10 & 10 & 10 \\
+			 \hline
+			 Progettista & 30 & 10 & 10 & 10 \\
+			 \hline
+			 Programmatore & 30 & 10 & 10 & 10 \\
+			 \hline
+			 Verificatore & 30 & 10 & 10 & 10 \\
+			 \hline\hline
+			 Totale & 30 & 10 & 10 & 10 \\
+			 \hline
+			\end{tabular}
+		\end{center}
+
+
+
+\end{document}
